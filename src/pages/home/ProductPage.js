@@ -14,9 +14,7 @@ export default function ProductPage() {
         <>
         <Box my={5}/>
             <ScrooView/>
-                <Box my={4}/>
-                    <ScrooView/>
-        <Box mb={4}/>
+                
 
 
             {/* <ProductTabs/> */}
