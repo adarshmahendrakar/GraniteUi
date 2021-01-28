@@ -4,7 +4,6 @@ import { Box, Card, CardActions, CardContent, Grid, Paper, Typography } from '@m
 
 import Subscribe from '../../components/Subscribe'
 
-import RepairFixTabs from '../../components/Tabs/RepairFixTab';
 import Button from '@material-ui/core/Button/Button';
 import RepairFixCard from '../../components/cards/RepairFixCard';
 import ServiceManCard from '../../components/cards/ServiceManCard';
@@ -18,7 +17,7 @@ export default function ServiceManPage() {
                 
 
 
-            {/* <RepairFixTabs/> */}
+ 
             
             
 

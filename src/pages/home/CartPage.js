@@ -19,7 +19,7 @@ export default function CartPage() {
         <Grid container spacing={2} style={{maxWidth:"100%"}}>
                 <Grid item xs={10} lg={8} style={{marginLeft:"5%",marginBottom:"50px"}}>
                 <Card style={{marginBottom:"50px"}} >
-      <CardActionArea>
+    
          <CardHeader title="MY CART(2)" style={{backgroundColor:"gold",height:"50px"}}/>
         <CardContent style={{color:"black"}}>
         <CartCard/>
@@ -30,17 +30,17 @@ export default function CartPage() {
         </Button>
        
       </CardActions>
-      </CardActionArea>
+     
      
     </Card>
     <Card  style={{border:"2px solid gray"}}>
-      <CardActionArea>
+
          <CardHeader title="SAVED FOR CART(4)" style={{backgroundColor:"gold",height:"50px"}}/>
         <CardContent>
         <CartCard/>
         </CardContent>
        
-      </CardActionArea>
+     
      
     </Card>
                 
@@ -54,7 +54,7 @@ export default function CartPage() {
 
 
 
-            <Subscribe/>
+       
             
             
         </div>

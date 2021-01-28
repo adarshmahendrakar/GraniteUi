@@ -83,7 +83,7 @@ export default function PaymentPage() {
 
                 <Grid item xs={10} lg={6} style={{marginLeft:"5%",marginBottom:"50px"}}>
                 <Card style={{marginBottom:"50px"}} >
-                        <CardActionArea>
+                        <>
                             <CardHeader title="PAYMENT OPTIONS" style={{backgroundColor:"#F9C74F",height:"50px",textAlign:"center",color:"black"}}/>
                                 <CardContent style={{color:"black"}}>
                                     <FormControl component="fieldset">
@@ -122,7 +122,7 @@ export default function PaymentPage() {
                     </FormControl>
                             </CardContent>
                           
-                        </CardActionArea>
+                        </>
      
     </Card>
  

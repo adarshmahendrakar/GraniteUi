@@ -10,6 +10,7 @@ import RegisterForm from '../../components/forms/RegisterForm';
 import { AddButton, DeleteButton, EditButton } from '../../components/Buttons/AddButton';
 import CategoryForm from './CategoryForm';
 import {useCategoryService,Actions} from './CategoryService'
+
 export default () =>{
 
 
@@ -22,7 +23,7 @@ export default () =>{
     const icon=<PeopleOutlineTwoToneIcon fontSize="large" />
     const Form=CategoryForm
     const addorEdit=(v)=>{
-        Object.keys(value).length==0?add(v):update(v)
+        Object.keys(value).length == 0 ? add(v):update(v)
         openDialog()
     }
     const data = React.useMemo(() =>  mydata||[], [mydata]);

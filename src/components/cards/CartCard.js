@@ -66,7 +66,7 @@ export default function CartCard() {
           
           
           style={{ backgroundColor:"#F9C74F"}}>
-          Add to Cart  
+          Save for Later  
         </Button>
         </div>
         <div style={{paddingLeft:"5px"}}>
@@ -75,7 +75,7 @@ export default function CartCard() {
           
           
           style={{ backgroundColor:"#F9C74F"}}>
-          Buy Now 
+          Remove
         </Button>
         </div>
       </ButtonGroup>

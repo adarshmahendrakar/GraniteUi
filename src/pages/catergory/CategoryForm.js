@@ -4,7 +4,7 @@ import { useForm } from '../../hooks/useForm'
 
 export default function CategoryForm({value,addorEdit}) {
     const initialValues={categoryName:''}
-const {values,handleInputChange}=useForm(Object.keys(value).length==0?initialValues:value,false,{})
+    const {values,handleInputChange}=useForm(Object.keys(value).length==0?initialValues:value,false,{})
 
 
      const handleSubmit=(e)=>{
